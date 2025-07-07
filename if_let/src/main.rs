@@ -52,7 +52,7 @@ fn main() {
     let m3 = Mensagem::Write(String::from("hellohello"));
 
     match m3 {
-        Mensagem::Write( txt) => println!("In m3 we have: {}", txt),
+        Mensagem::Write(txt) => println!("In m3 we have: {}", txt),
         _ => ()
     }
 
